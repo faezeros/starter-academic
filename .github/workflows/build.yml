@@ -21,5 +21,5 @@ jobs:
       env:
         HUGO_VERSION: 0.68.3
         TARGET_REPO: faezeros/faezeros.github.io
-        TOKEN: ${{ secrets.TOKEN }}
+        TOKEN: ${{ secrets.EXAMPLE_TOKEN }}
         CNAME: https://relaxed-wing-4e6d9f.netlify.app/
