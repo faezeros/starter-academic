@@ -41,7 +41,7 @@ item:
   url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
 - certificate_url: https://www.datacamp.com
   date_end: "2017-12-21"
-  date_start: "2017-07-01"
+  date_start: "2017-07-02"
   description: ""
   organization: DataCamp
   organization_url: https://www.datacamp.com
