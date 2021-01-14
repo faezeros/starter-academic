@@ -19,6 +19,9 @@ jobs:
     - name: Hugo Deploy GitHub Pages
       uses: benmatselby/hugo-deploy-gh-pages@master
       env:
-        HUGO_VERSION: 0.68.3
+        HUGO_VERSION: 0.80.0
         TARGET_REPO: faezeros/faezeros.github.io
+        TARGET_BRANCH: master
         TOKEN: ${{ secrets.EXAMPLE_TOKEN }}
+        HUGO_ARGS: '-t academic'
+        CNAME: faezeros.github.io
